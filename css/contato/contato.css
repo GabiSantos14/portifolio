@@ -1,0 +1,31 @@
+.contato {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    padding-top: 64px;
+    width: 71rem;
+    
+}
+
+.contato__contacto {
+    display: flex;
+    flex-direction: row;
+}
+
+.contato_texto {
+    padding-bottom: 2rem;
+}
+
+.contato__title {
+    font-size: 2rem;
+    font-style: bold;
+    font-weight: 700;
+}
+
+.contato__subtexto {
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 500;
+    width: 41rem;
+}
+

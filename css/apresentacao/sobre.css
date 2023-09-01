@@ -1,0 +1,18 @@
+.sobre {
+    display: flex;
+    flex-direction: column;
+    align-items:
+    padding: 64px;
+}
+
+.sobre__titulo {
+    font-weight: bold;
+    font-size: 2rem;
+}
+
+.sobre__paragrafo {
+    display: flex;
+    width: 751px;
+    height: 133px;
+    font-size: 16px;
+}

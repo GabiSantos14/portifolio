@@ -1,0 +1,11 @@
+.experiencia {
+    display: flex;
+    flex-direction:column;
+}
+
+.experiencia__secao__title {
+    font-size: 2rem;
+    font-weight: 700;
+    text-align: center;
+}
+

@@ -1,0 +1,14 @@
+.hobbies {
+    display: flex;
+    flex-direction: column;
+}
+
+.hobbies__title {
+    font-weight: bold;
+    font-size: 2rem;
+}
+
+.hobbies__line {
+    display: flex;
+    flex-direction: row;
+}

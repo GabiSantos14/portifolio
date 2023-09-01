@@ -1,0 +1,36 @@
+.contato__formulario {
+    display: flex;
+    flex-direction: column;
+    align-self: stretch;
+    gap: 2rem;
+}
+
+.contato__input {
+    border: 2rem;
+    border-color: gray;
+    border-radius: 0.25rem;
+    padding: 15px;
+
+    
+}
+
+.contato__textarea {
+    border: 2rem;
+    border-radius: 0.25rem;
+    height: 7.31rem;
+    width: 41rem;
+    
+}
+
+.contato__botao {
+    display: flex;
+    background-color: #483D8B;
+    border-color: #fff;
+    color: #fff;
+    align-items: center;
+    font-size: 1rem;
+    justify-content: center;
+    margin: 0 auto;
+    padding: 1rem;
+    width: 10.3125rem;
+}

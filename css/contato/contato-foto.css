@@ -1,0 +1,10 @@
+.contato--esquerda {
+    display: flex;
+    align-items: flex-start;
+}
+
+.contato_imagem {
+    flex-shrink: 0;
+    height: 37.0625rem;
+    width: 29rem;
+}
