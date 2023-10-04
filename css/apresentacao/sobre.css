@@ -1,18 +1,26 @@
 .sobre {
     display: flex;
     flex-direction: column;
-    align-items:
-    padding: 64px;
+    align-items: center;
+    justify-content: center;
+    
+    
+}
+
+.sobre__container {
+    height: 15.9375rem;
+    width: 71rem;
+    padding-left: 1.3rem;
 }
 
 .sobre__titulo {
-    font-weight: bold;
     font-size: 2rem;
+    font-style: normal;
+    font-weight: 700;
 }
 
 .sobre__paragrafo {
-    display: flex;
-    width: 751px;
-    height: 133px;
-    font-size: 16px;
+    font-size: 1.12rem;
+    font-weight: 400;
+    width: 46.9375rem;
 }

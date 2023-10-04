@@ -10,6 +10,8 @@
 .contato__contacto {
     display: flex;
     flex-direction: row;
+    justify-content: center;
+    padding: 2rem;
 }
 
 .contato_texto {

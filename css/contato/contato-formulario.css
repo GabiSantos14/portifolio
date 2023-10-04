@@ -25,12 +25,18 @@
 .contato__botao {
     display: flex;
     background-color: #483D8B;
-    border-color: #fff;
     color: #fff;
+    border: none;
     align-items: center;
     font-size: 1rem;
     justify-content: center;
     margin: 0 auto;
     padding: 1rem;
     width: 10.3125rem;
+    cursor: pointer;
+}
+
+.contato__botao:hover {
+   
+    color: black;
 }

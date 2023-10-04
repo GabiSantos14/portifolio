@@ -1,12 +1,17 @@
 .titulo {
     display: flex;
+    flex-direction: column;
+    align-items: flex-start;
 }
 
 .titulo__div {
     display: flex;
     justify-content: center;
-    flex-direction: row-reverse;
     align-items: center;
+}
+
+.titulo__container{
+    margin: 3rem;
 }
 
 .titulo__profile {
@@ -16,37 +21,32 @@
 }
 
 .titulo__bio {
-    width: 751px;
-    height: 122px;
-    font-weight: bold;
-    font-size: 52px;
+    font-family: Raleway;
+    font-size: 3.25rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin: 1.5rem;
 }
 
 .titulo__subsection {
-    width: 751px;
-    height: 52px;
-    font-size: 22px;
+    font-family: Raleway;
+    font-size: 1.375rem;
+    font-style: normal;
+    font-weight: 400;
+    margin: 1.5rem;
 }
 
 .titulo__network {
     display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    width: 50px;
-    height: 19px;
-    font-size: 16px;
+    align-items: flex-start;
+    gap: 2rem;
+    padding-left: 0.4rem;
 }
 
 .titulo__network__item {
-    display: inline-block;
-    margin-right: 0.7rem;
-    margin-left: 0.7rem;
-    margin-bottom: 1.25rem;
-}
-
-
-@media and screen (max-width: 425px) {
-    .titulo__profile {
-        display: inline-block;
-    }
+    display: flex;
+    align-items: flex-start;
+    font-size: 1.2rem;
+    font-weight: 500;
 }

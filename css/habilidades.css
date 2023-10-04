@@ -1,16 +1,32 @@
-.skills {
+.habilidades {
     display: flex;
     flex-direction: column;
+    align-items: center;
+    padding-top: 1.3rem;
 }
 
-.skills__title {
-    font-size: 32px;
-    font-weight: bold;
-    text-align: center;
+.habilidades__titulo {
+   text-align: center;
+   font-size: 2rem;
+   font-weight: 700;
+   padding: 2.5rem;
 }
 
-.skills__line {
+.habilidades__container {
     display: flex;
-    flex-direction: row;
-    justify-content: space-between;
+    align-items: flex-start;
+    gap: 1rem;
+}
+
+.habilidades__box {
+    display: flex;
+    box-sizing: border-box;
+    border: 0.13rem solid #483D8B;
+    border-radius: 1.25rem;
+    padding: 1rem;
+    height: 10.875rem;
+    width: 11rem;
+}
+
+.habilidades__imagem {
 }

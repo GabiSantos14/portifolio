@@ -1,11 +1,14 @@
 .experiencia {
     display: flex;
     flex-direction:column;
+    padding-top: 5rem;
 }
 
-.experiencia__secao__title {
+.experiencia__secao__titulo {
     font-size: 2rem;
     font-weight: 700;
     text-align: center;
+    padding: 2.5rem;
 }
+
 
